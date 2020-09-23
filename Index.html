@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teste - HTML</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="jquery/jquery.cycle.all.js"></script>
+    <!-- Scrip Jquery -->
+	<script type="text/javascript">
+		
+		$ (function (){
+
+			$("#slider ul").cycle ({
+
+				fx: 'fade',
+				speed: 2000,
+				timeout: 4000,
+
+			})
+
+		})
+	</script>
+	<!-- ----- -->
+
+</head>
+<body>
+	<header class="telefone-topo">	
+		<span> 11 1234-1234 11 1234-1234 </span>
+	</header>
+
+	
+		<nav class="menu">
+			<img src="img/imagem-topo.jpg" alt="imagem-topo">
+			<ul class="barra-menu">
+				<li> <a href="">Home</a></li>
+				<li> <a href="">Empresa</a>
+					
+					<ul>
+						<li><a href="">SUBMENU 1</a></li>
+						<li><a href="">SUBMENU 1</a></li>
+						<li><a href="">SUBMENU 1</a></li>
+						<li><a href="">SUBMENU 1</a>
+							
+							<ul class="submenu">
+								<li><a href="">SUBMENU 2</a></li>
+								<li><a href="">SUBMENU 2</a></li>
+								<li><a href="">SUBMENU 2</a></li>
+								<li><a href="">SUBMENU 2</a></li>
+							</ul>
+
+						</li>
+					</ul>
+
+				</li>
+				<li> <a href="">Cliente</a></li>
+				<li> <a href="">Contato</a></li>
+			</ul>
+			
+			
+			</nav>
+			<!-- Início do Slider -->
+			
+			<div id="slider">
+				<ul class="imagem-slider">
+					<li><img src="img/slide1.jpg" alt="slide1"></li>
+					<li><img src="img/slide2.jpg" alt="slide2"></li>
+				</ul>
+				
+			</div>
+
+			<div class="imagem-lateral"> 
+				<img src="img/imagem-lateral.jpg" alt="imagem-lateral">
+			</div>
+
+			<!-- Fim do Slider -->
+
+			<!-- Boxes de Destaque -->
+
+			<section class="destaque">
+				<h1>Boxes de destaque</h1>
+				<div class="cards"> 
+					<div class="box">
+						<img src="img/destaque.jpg" alt="destaque">
+						<p> <a href="#"> Lorem Ipsum is simply <br> dummy</a></p>
+
+					</div>
+					
+				</div>
+
+				<div class="cards"> 
+					<div class="box">
+						<img src="img/destaque.jpg" alt="destaque">
+						<p> <a href="#"> Lorem Ipsum is simply <br> dummy</a></p>
+					</div>
+					
+
+				</div>
+				
+				<div class="cards"> 
+					<div class="box">
+						<img src="img/destaque.jpg" alt="destaque">
+						<p> <a href="#"> Lorem Ipsum is simply <br> dummy</a></p>
+					</div>
+					
+				</div>
+
+				<div class="cards"> 
+					<div class="box">
+						<img src="img/destaque.jpg" alt="destaque">
+						<p> <a href="#"> Lorem Ipsum is simply <br> dummy</a></p>
+					</div>
+					
+
+				</div>
+				
+			</section>
+
+
+			<footer class="rodape">
+				
+				<a href="">Home</a>
+				<a href="">Empresa</a>
+				<a href="">Clientes</a>
+				<a href="">Contato</a>
+				<p>rodape</p>
+
+			</footer>
+
+		</body>
+		</html>
